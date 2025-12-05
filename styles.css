@@ -1,0 +1,13 @@
+html{   
+  font-family: "Montserrat", sans-serif;
+}
+h2{
+    color: rgb(42, 42, 122);
+    text-align: center;
+}
+nav{
+    text-align: center;
+    box-shadow: 0 0 50px rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
