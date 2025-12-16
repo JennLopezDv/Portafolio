@@ -1,13 +1,116 @@
-html{   
-  font-family: "Montserrat", sans-serif;
+body{
+  background: linear-gradient(#23185E,transparent);
+  background-repeat: no-repeat;
 }
-h2{
-    color: rgb(42, 42, 122);
-    text-align: center;
+header{  
+  font-family: "Funnel Display", sans-serif;
+  font-size: 2rem;
+  font-style: oblique;
+  color: #1A0629;  
+  text-align: center;
+  padding-top: 2px;
+  margin: 50px;
+  border-radius: 5px;
+  border-bottom: 2px dashed #1A0629;  
+  
 }
-nav{
-    text-align: center;
-    box-shadow: 0 0 50px rgb(0, 0, 0);
-    border-radius: 50px;
+header h1{
+  color: #E4D1F0;  
 }
+#contenedor-main {
+  display: flex;  
+}
+.perfil{  
+  margin-right: 15px ;
+  padding: 1rem;
+  border-right: 1px solid #23185E;
+  border-radius: 2rem;  
+  height: 50rem;
+  width: 20rem;   
+}
+.perfil{
+  background-image: url("./img/fondo1.jpeg");
+  background-size: cover;
+}
+.perfil a{
+  font-family: "Funnel Display", sans-serif;
+  font-style: normal;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: none;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  color: #ece4f1;
+  
+}
+.perfil a:hover{
+  color: #E4D1F0;
+}
+.perfil p{
+  text-align: center;
+  font-family: "Funnel Display", sans-serif;
+  color: #e2d9e7; 
+}
+img{
+  border-radius:100px;   
+  width: 100px;
+}
+img:hover{
+  box-shadow: 10px 10px 10px #23185E;
+}
+.menu{
+  display: flex;
+  border-left: 1px solid #23185E;
+  border-radius: 2rem;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.modulos{
+  height: 10rem;
+  width: 10rem;
+  margin-top: 2rem;
+  color: #ece4f1;
+  padding: 15px;
+  border-radius: 2rem;  
+  text-align: center;  
+  font-family: "Funnel Display", sans-serif;
+  font-style: normal;
+}
+.modulos:hover{
+  box-shadow: 10px 10px 10px #23185E;
+}
+.modulos a{
+  text-decoration: none;
+  color: #e2d9e7;
+  display: block;
+  font-family: "Funnel Display", sans-serif;
+  font-style: normal;  
+}
+.modulos a:hover{
+  color: #d7e48f;
+}
+.modulo1{
+  background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHpnZ2NleXhxaWluZHQxa2N0eHRzN3lmeThnYjgzajJjcGpvOGo0eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/knBA26sv2ueXK/giphy.gif");
+  background-size: cover;
+}
+.modulo2{
+  background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXQydTJyYzB5Y3o3b3Z2amh5bXYzcnBuZDA2a2djaGhqZ2IwMWIzNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pVGsAWjzvXcZW4ZBTE/giphy.gif");
+  background-size: cover;
+}
+.modulo3{
+  background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWswMzNzNXRxbHRoMXRrNDBzYTRzaTZqZ3JlYWtzMGRucTl4MzV6NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TRebCjNbc4dIA/giphy.gif");
+  background-size: cover;
+}
+
+footer{
+  text-align: center;
+  font-family: "Funnel Display", sans-serif;
+  color: #6F527F;
+  font-size: 13px;
+}
+
+
 
