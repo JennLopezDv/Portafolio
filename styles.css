@@ -92,6 +92,14 @@ img:hover{
 .modulos a:hover{
   color: #d7e48f;
 }
+.modulos h4{
+  color: rgb(170, 180, 32);
+  margin: 2px;
+  padding: 2px;
+}
+.modulos h4:hover{
+  color: rgb(224, 125, 11);
+}
 .modulo1{
   background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHpnZ2NleXhxaWluZHQxa2N0eHRzN3lmeThnYjgzajJjcGpvOGo0eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/knBA26sv2ueXK/giphy.gif");
   background-size: cover;
@@ -102,6 +110,10 @@ img:hover{
 }
 .modulo3{
   background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWswMzNzNXRxbHRoMXRrNDBzYTRzaTZqZ3JlYWtzMGRucTl4MzV6NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TRebCjNbc4dIA/giphy.gif");
+  background-size: cover;
+}
+.modulo4{
+  background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnh0Zmd3Z2dqZTk0Y25ub3hwMmw2ZzJlcHphaWhwdHcza3NiMTB5YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lkceXNDw4Agryfrwz8/giphy.gif);
   background-size: cover;
 }
 
