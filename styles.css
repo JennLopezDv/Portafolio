@@ -1,4 +1,205 @@
-body{
+:root {
+  --principal: #23185E;
+  --secundario: #1A0629;
+  --texto-claro: #ece4f1;
+  --texto-medio: #e2d9e7;
+  --acento: #d7e48f;
+  --footer: #6F527F;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(var(--principal), transparent);
+  background-repeat: no-repeat;
+  font-family: "Funnel Display", sans-serif;
+}
+
+header {
+  text-align: center;
+  margin: 50px;
+  padding-bottom: 10px;
+  border-bottom: 2px dashed var(--secundario);
+}
+
+header h1 {
+  font-size: 2rem;
+  font-style: oblique;
+  color: #E4D1F0;
+}
+
+#contenedor-main {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+}
+.perfil {
+  width: 20rem;
+  min-height: 50rem;
+  padding: 1rem;
+  border-right: 1px solid var(--principal);
+  border-radius: 2rem;
+  /* background-image: url("./img/fondo1.jpeg"); */
+  background-size: cover;
+}
+
+.perfil a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  color: var(--texto-claro);
+  font-size: 1.5rem;
+}
+
+.perfil a:hover {
+  color: #E4D1F0;
+}
+
+.perfil p {
+  text-align: center;
+  margin-top: 1rem;
+  color: var(--texto-medio);
+}
+
+/*Imagen de perfil*/
+img {
+  width: 100px;
+  border-radius: 100px;
+  transition: box-shadow 0.3s ease;
+}
+
+img:hover {
+  box-shadow: 10px 10px 10px var(--principal);
+}
+
+/*Modulos*/
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+  width: 100%;
+  border-left: 1px solid var(--principal);
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+.modulos {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  padding: 15px;
+  border-radius: 2rem;
+  text-align: center;
+  color: var(--texto-claro);
+  transition: box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.modulos::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 2rem;
+  z-index: 0;
+}
+
+.modulos * {
+  position: relative;
+  z-index: 1;
+}
+
+.modulos:hover {
+  box-shadow: 10px 10px 10px var(--principal);
+}
+
+.modulos a {
+  display: block;
+  text-decoration: none;
+  color: var(--texto-medio);
+  margin-top: 5px;
+}
+
+.modulos a:hover {
+  color: var(--acento);
+}
+
+.modulos h4 {
+  color: rgb(170, 180, 32);
+  margin: 4px 0;
+}
+
+.modulos h4:hover {
+  color: rgb(224, 125, 11);
+}
+
+/*Fondo de mpdulos*/
+.modulo1 {
+  background-image: url("./img/fondo_python.png");
+  background-size:auto;
+}
+
+.modulo2 {
+  background-image: url("./img/fondo_css.png");
+  background-size: cover;
+}
+
+.modulo3 {
+  background-image: url("./img/equipo.png");
+  background-size: cover;
+}
+
+.modulo4 {
+  background-image: url("./img/fondo_js.png");
+  background-size: cover;
+};
+  
+
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  color: var(--footer);
+  margin: 20px 0;
+}
+
+/* RESPONSIVE*/
+@media (max-width: 768px) {
+  #contenedor-main {
+    flex-direction: column;
+  }
+
+  .perfil {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid var(--principal);
+    min-height: auto;
+  }
+
+  .menu {
+    border-left: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
   background: linear-gradient(#23185E,transparent);
   background-repeat: no-repeat;
 }
@@ -125,4 +326,4 @@ footer{
 }
 
 
-
+ */
